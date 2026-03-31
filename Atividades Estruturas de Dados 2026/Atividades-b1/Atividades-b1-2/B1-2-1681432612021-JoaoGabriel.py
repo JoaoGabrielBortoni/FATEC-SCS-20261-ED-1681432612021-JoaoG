@@ -1,9 +1,9 @@
 '''
 *----------------------------------------------------------------------------------*
 *                           FATEC São Caetano do Sul                               *
-*                                Atividade B1 - 2                                *
+*                                Atividade B1 - 2                                  *
 *  Autor: 1681432612021 - João Gabriel Bortoni                                     *
-*  Objetivo: Executar operações de cadastro, busca, remoção e listagem de filmes   *
+*  Objetivo: Executar lista                                                        *
 *  Data: 24/02/2026                                                                *
 *----------------------------------------------------------------------------------*
 '''

@@ -1,6 +1,12 @@
-"""
-Calculadora RPN (Notacao Polonesa Reversa)
-"""
+'''
+*----------------------------------------------------------------------------------*
+*                           FATEC São Caetano do Sul                               *
+*                                Atividade B1 - 3                                  *
+*  Autor: 1681432612021 - João Gabriel Bortoni                                     *
+*  Objetivo: Executar operação RPN                                                 *
+*  Data: 31/03/2026                                                                *
+*----------------------------------------------------------------------------------*
+'''
 
 X, Y, Z, T = 0, 0, 0, 0
 notacao = []
