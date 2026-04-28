@@ -8,13 +8,8 @@
 *----------------------------------------------------------------------------------*
 '''
 
-fila_alunos = []   # fila de alunos
-fila_adm    = []   # fila de administração
-
-
-# ──────────────────────────────────────────────
-#  PROVEDORES
-# ──────────────────────────────────────────────
+fila_alunos = []    
+fila_adm    = []   
 
 def adicionar_fila(tipo: str, nome: str, paginas: int) -> None:
     """Adiciona um documento à fila correta (aluno ou adm)."""
@@ -79,11 +74,6 @@ def reorganizar_fila() -> None:
     fila_adm    = sorted(fila_adm,    key=lambda d: d[1])
     print("[↺] Filas reorganizadas por número de páginas (crescente).")
 
-
-# ──────────────────────────────────────────────
-#  MENU INTERATIVO
-# ──────────────────────────────────────────────
-
 def menu() -> None:
     opcoes = """
 
@@ -124,11 +114,6 @@ def menu() -> None:
 
         else:
             print("Opção inválida. Tente novamente.")
-
-
-# ──────────────────────────────────────────────
-#  PONTO DE ENTRADA
-# ──────────────────────────────────────────────
 
 if __name__ == "__main__":
     menu()
